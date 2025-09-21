@@ -1,5 +1,5 @@
 # 🛡️ Resumo do Lab: Governança e Conformidade - Microsoft Azure AZ-900
-Este repositório reúne os principais aprendizados adquiridos durante o laboratório de **Governança e Conformidade no Azure** da plataforma [DIO.me](https://web.dio.me), Módulo 3, do qual estou atualmente participando. O foco está nos benefícios e aplicações práticas da plataforma Microsoft Azure, explorando seus recursos e funcionalidades. O Bootcamp oferece uma base sólida em tecnologias de nuvem, abordando desde os conceitos fundamentais até os componentes essenciais da arquitetura Azure.
+Este repositório reúne os principais aprendizados adquiridos durante o curso **Primeiros Passos com Governança e Conformidade na Azure** da plataforma [DIO.me](https://web.dio.me), Gerenciamento e Governança na Azure - Módulo 3. O foco está nos benefícios e aplicações práticas da plataforma Microsoft Azure, explorando seus recursos e funcionalidades. O Bootcamp oferece uma base sólida em tecnologias de nuvem, abordando desde os conceitos fundamentais até os componentes essenciais da arquitetura Azure.
 Entre os temas estudados estão: criação e gerenciamento de máquinas virtuais, configuração de bancos de dados e soluções de armazenamento, além de tópicos avançados como arquitetura em nuvem, governança, monitoramento e segurança de ambientes cloud.
 
 ---
