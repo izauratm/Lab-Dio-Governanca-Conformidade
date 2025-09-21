@@ -7,9 +7,8 @@ Entre os temas estudados estão: criação e gerenciamento de máquinas virtuais
  A governança no Azure é um conjunto de ferramentas e serviços que ajudam a gerenciar, controlar e auditar os recursos na nuvem.
  Ela é fundamental para manter a segurança, otimizar custos e garantir a conformidade com as regulamentações internas e externas. A seguir, abordado os principais tópicos.
 
- ---
- ## 📘 1. Azure Blueprints (Projetos do Azure)
 
+## 📘 1. Azure Blueprints (Projetos do Azure)
 O **Azure Blueprints** é uma maneira de orquestrar e implantar ambientes de nuvem pré-configurados. Ele agrupa um conjunto de padrões, como:
 
 - Políticas
@@ -36,8 +35,6 @@ Você define um projeto que, por exemplo, exige que todas as máquinas virtuais 
 - Um bloqueio de recursos
 
 Ao atribuir esse projeto a uma assinatura, o Azure garante que todos os recursos criados atendam a esses requisitos.
-
----
 
 ## 📜 2. Políticas e Bloqueios de Recursos
 
@@ -66,13 +63,9 @@ Permite definir regras de negócios. Exemplos:
   - `Append`: adiciona uma tag ou valor  
   - Outros efeitos disponíveis
 
-**Exemplo:**  
-Uma política pode impedir a criação de máquinas virtuais fora da região `Brazil South`.
-
----
+**Exemplo:** Uma política pode impedir a criação de máquinas virtuais fora da região `Brazil South`.
 
 ### 🔒 Bloqueios de Recursos
-
 O **bloqueio de recursos** protege contra exclusão ou modificação acidental. Pode ser aplicado a:
 
 - Recurso individual
@@ -90,10 +83,8 @@ Bloqueios são herdáveis. Se aplicados a um `resource group`, todos os recursos
 **Como funciona:**  
 Ao aplicar um bloqueio, qualquer operação que viole a regra será negada. Isso é essencial para proteger recursos críticos de produção.
 
----
 
 ## 🔐 Gerenciamento do Bloqueio dos Recursos
-
 O gerenciamento de bloqueios pode ser feito via:
 
 - Portal do Azure
@@ -107,8 +98,8 @@ Configure o controle de acesso (RBAC) para garantir que apenas usuários autoriz
 > As políticas e os bloqueios de recursos trabalham de forma complementar.  
 > Uma política pode exigir que um recurso tenha um bloqueio, enquanto o bloqueio impede que o recurso seja excluído, mesmo que a política não o proíba diretamente.
 
-## ⛩️ Microsoft Trust Center (Portal de Confiança da Microsoft)
 
+## ⛩️ Microsoft Trust Center (Portal de Confiança da Microsoft)
 O **Portal de Confiança da Microsoft** é uma plataforma online que oferece informações detalhadas sobre:
 
 - Segurança
@@ -119,7 +110,6 @@ O **Portal de Confiança da Microsoft** é uma plataforma online que oferece inf
 Esses dados cobrem os principais serviços em nuvem da Microsoft, como Azure, Microsoft 365, Dynamics 365 e Power Platform. É uma ferramenta essencial para quem usa ou pretende usar os serviços da Microsoft com responsabilidade e segurança.
 
 ## 🎯 Para que Serve o Portal de Confiança?
-
 O objetivo principal é fornecer aos clientes e parceiros acesso às informações necessárias para entender como a Microsoft protege seus dados. Funciona como um hub central de:
 
 - Documentação
@@ -127,7 +117,6 @@ O objetivo principal é fornecer aos clientes e parceiros acesso às informaçõ
 - Ferramentas de conformidade
 
 ## 🔖 Principais Tópicos e Seções
-
 O portal é estruturado em torno dos pilares de confiança da Microsoft:
 
 ### 🔐 1. Segurança
@@ -168,15 +157,11 @@ A Microsoft compartilha:
 - Informações sobre interrupções de serviço e desempenho
 
 ## 👥 Quem Deve Usar o Portal?
-
 - Profissionais de TI e Segurança  
 - Equipes Jurídicas e de Conformidade  
 - Líderes de Negócios
 
----
-
 ## 🔍 Microsoft Purview
-
 O **Microsoft Purview** é uma plataforma integrada para:
 
 - Governança de dados  
@@ -207,22 +192,16 @@ Reúne diversas soluções para proteger e controlar dados em ambientes:
 - Investigações avançadas com auditoria premium e integração com o **Microsoft Sentinel**
 
 ## 🔐 Gerenciamento de Políticas de Acesso no Azure
-
 O **gerenciamento de políticas de acesso** no Azure é um dos pilares fundamentais da segurança e da governança na nuvem. A plataforma utiliza um modelo robusto de **controle de acesso baseado em funções (RBAC)** para definir quem pode acessar e modificar recursos dentro de uma assinatura.
 
 Além disso, políticas específicas podem ser aplicadas para **controlar a movimentação de assinaturas entre diretórios**, garantindo maior controle organizacional.
-
----
 
 ## ⚠️ Importante
 
 - Apenas **administradores globais com permissões elevadas** podem editar políticas de assinatura.
 - Outros usuários têm acesso apenas para **visualizar** as configurações atuais.
 
----
-
 ## 📜 Políticas de Assinatura
-
 Essas políticas têm como objetivo controlar e restringir a movimentação de assinaturas entre diretórios do Azure.
 
 **Principais funcionalidades:**
@@ -231,10 +210,7 @@ Essas políticas têm como objetivo controlar e restringir a movimentação de a
 - Permitir que administradores configurem exceções para usuários específicos  
 - Reforçar a governança e reduzir riscos de segurança
 
----
-
 ## 📍 Como Gerenciar
-
 Para gerenciar políticas de assinatura no Azure:
 
 1. Acesse o **portal do Azure**
@@ -243,12 +219,35 @@ Para gerenciar políticas de assinatura no Azure:
 4. Edite as configurações conforme necessário
 5. Salve as alterações
 
----
-
 ## ✅ Benefícios
-
 Esse modelo garante que o acesso aos recursos seja:
 
 - Controlado de forma segura  
 - Alinhado aos limites organizacionais  
 - Compatível com exigências regulatórias
+
+---
+## ✅ Conclusão
+A **governança e conformidade** no Azure não são apenas práticas recomendadas — são elementos essenciais para garantir que os ambientes em nuvem sejam seguros, eficientes e alinhados às exigências legais e organizacionais. Ao integrar ferramentas como **Azure Policy**, **Blueprints**, **Microsoft Trust Center** e **Microsoft Purview**, as empresas conseguem:
+
+- Proteger seus dados com políticas claras e bloqueios eficazes  
+- Atender às normas regulatórias com transparência e responsabilidade  
+- Controlar o acesso e a movimentação de recursos com precisão  
+- Promover uma cultura de segurança e responsabilidade digital
+
+> Este conteúdo faz parte do projeto **Governança e Conformidade no Azure - Laboratório** da plataforma DIO.me.
+
+---
+ 
+### 📚 Recursos Complementares
+- [Tutorial oficial para criar e gerenciar VMs Windows](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/tutorial-manage-vm)
+- [SQL do Azure para Iniciantes](https://learn.microsoft.com/pt-br/shows/azure-sql-for-beginners/)
+- [Portal Microsoft Azure](https://portal.azure.com/#allservices)
+- [Calculadora de Preços Azure](https://azure.microsoft.com/pt-br/pricing/calculator/)
+- [Criar e Gerenciar Políticas no Azure](https://learn.microsoft.com/pt-br/azure/governance/policy/tutorials/create-and-manage#create-and-assign-an-initiative-definition)
+- [Governança, Risco e Conformidade](https://learn.microsoft.com/pt-br/compliance/assurance/assurance-governance)
+- [Microsoft Purview](https://learn.microsoft.com/pt-br/purview/)
+- [Introdução ao Portal de Confiança](https://learn.microsoft.com/pt-br/purview/get-started-with-service-trust-portal)
+- [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/ViewPage/Brazil)
+
+📎 Link do curso: [Microsoft Azure AZ-900 - DIO.me](https://web.dio.me/track/microsoft-azure-az-900)
