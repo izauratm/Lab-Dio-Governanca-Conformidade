@@ -72,8 +72,7 @@ O **bloqueio de recursos** protege contra exclusão ou modificação acidental. 
 - Grupo de recursos
 - Assinatura inteira
 
-**Importante:**  
-Bloqueios são herdáveis. Se aplicados a um `resource group`, todos os recursos dentro dele herdarão o bloqueio.
+**Importante:**  Bloqueios são herdáveis. Se aplicados a um `resource group`, todos os recursos dentro dele herdarão o bloqueio.
 
 **Tipos de Bloqueio:**
 
