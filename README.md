@@ -234,7 +234,7 @@ A **governança e conformidade** no Azure não são apenas práticas recomendada
 - Controlar o acesso e a movimentação de recursos com precisão  
 - Promover uma cultura de segurança e responsabilidade digital
 
-> Este conteúdo faz parte do projeto **Governança e Conformidade: Gerenciando Politicas em Acessos Azure - Laboratório** da plataforma DIO.me.
+> Este conteúdo faz parte do projeto **Gerenciando Politicas em Acessos Azure - Laboratório** da plataforma DIO.me.
 
 ---
  
